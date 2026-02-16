@@ -91,3 +91,8 @@
 # name2="Ahmad"
 # print(name1,name2)
 
+name1=["Ali"]
+name2=name1
+name2[0]="Ahmad"
+print(name1,name2)
+
