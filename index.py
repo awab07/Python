@@ -72,3 +72,22 @@
 #         print("Ok")
 #     case _1:
 #         print("hello")
+
+# n = (input("Enter the Table you want to print: "))
+# for n in range(2, 101, 2):   # even numbers from 2 to 100
+#     if n * n > 100:
+#         break
+#     print(f"{n}*{n}={n*n}")
+
+
+# number = int(input("Enter the table to be printed: "))
+# for i in range(2, 21, 2):   # even numbers: 2, 4, 6, ..., 20
+#     print(f"{number} x {i} = {number * i}")
+
+# Primitive example 
+
+# name1="Ali"
+# name2=name1
+# name2="Ahmad"
+# print(name1,name2)
+
