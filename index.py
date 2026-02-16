@@ -106,15 +106,29 @@
 # names = list(("Ali", "Ahmad","Usman"))
 # print(names)
 
-cities=["Lahore", "karachi"]
+# cities=["Lahore", "karachi"]
 # cities[0]="kalam"
-cities.append("malam jaba")
-cities.append("Kalam")
-cities.pop()
+# cities.append("malam jaba")
+# cities.append("Kalam")
+# cities.pop()
 # cities.extend(["Sialkot","hyderbad"])
-cities2=["Sialkot","hyderbad"]
-cities.extend(cities2)
-print(cities)
+# cities2=["Sialkot","hyderbad"]
+# cities.extend(cities2)
+# print(cities)
 # print(cities[0:5])
 # print(cities[0]+ " " + cities[2])
-print(f"{cities[0]} {cities[2]}")
+# print(f"{cities[0]} {cities[2]}")
+# print(cities[0::2])
+# print(cities[0:])
+
+# cities=["Lahore", "karachi","Faislabad"]
+# cities.insert(1,"Kalam")
+# cities.insert(2,"Sawat")
+# cities.insert(3,("LHR", "mianwali"))
+# cities.clear()
+# del cities
+# del cities[0]
+# cities.remove("Lahore")
+# city= cities.index("karachi")
+# print(cities, city)
+# print(len(cities))
