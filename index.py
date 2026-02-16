@@ -91,8 +91,30 @@
 # name2="Ahmad"
 # print(name1,name2)
 
-name1=["Ali"]
-name2=name1
-name2[0]="Ahmad"
-print(name1,name2)
+# name1=["Ali"]
+# name2=name1
+# name2[0]="Ahmad"
+# print(name1,name2)
 
+
+# names = ["namdeem","farz","ali","ahmad","saad","usman"]
+# print(names)
+
+# names = list("namdeem", "Faraz", "Saad")
+# print(names)
+
+# names = list(("Ali", "Ahmad","Usman"))
+# print(names)
+
+cities=["Lahore", "karachi"]
+# cities[0]="kalam"
+cities.append("malam jaba")
+cities.append("Kalam")
+cities.pop()
+# cities.extend(["Sialkot","hyderbad"])
+cities2=["Sialkot","hyderbad"]
+cities.extend(cities2)
+print(cities)
+# print(cities[0:5])
+# print(cities[0]+ " " + cities[2])
+print(f"{cities[0]} {cities[2]}")
