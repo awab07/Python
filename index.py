@@ -132,3 +132,37 @@
 # city= cities.index("karachi")
 # print(cities, city)
 # print(len(cities))
+
+
+# First Task
+print("This is First Task")
+cities=["jarawala","Lahore","Faislabad"]
+number=["1"]
+cities.extend(["Lahore","Islamabad"])
+del number
+print(cities)
+# print(number)
+
+# Second Task
+print("This is Second Task:")
+cities=["jarawala","Lahore","Faislabad"]
+print("Number of Length of List:",cities)
+print("Number of indexes :",len(cities)-1)
+
+# Third Task
+print("This is Third Task:")
+cities=[]
+cities.extend(["Lahore"])
+cities.append(int(2))
+cities.append(float(2.00))
+print("Used Different Data Types in List:",cities)
+
+# Fourth Task
+print("This is Forth Task:")
+cities=[-2,-1,0,1,2,3,4,5,6,7]
+print("Numebr of list from -ve range:",cities[-10:])
+
+
+
+
+
