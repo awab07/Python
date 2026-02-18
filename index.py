@@ -134,35 +134,77 @@
 # print(len(cities))
 
 
-# First Task
-print("This is First Task")
-cities=["jarawala","Lahore","Faislabad"]
-number=["1"]
-cities.extend(["Lahore","Islamabad"])
-del number
-print(cities)
-# print(number)
+# # First Task
+# print("This is First Task")
+# cities=["jarawala","Lahore","Faislabad"]
+# number=["1"]
+# cities.extend(["Lahore","Islamabad"])
+# del number
+# print(cities)
+# # print(number)
 
-# Second Task
-print("This is Second Task:")
-cities=["jarawala","Lahore","Faislabad"]
-print("Number of Length of List:",cities)
-print("Number of indexes :",len(cities)-1)
+# # Second Task
+# print("This is Second Task:")
+# cities=["jarawala","Lahore","Faislabad"]
+# print("Number of Length of List:",cities)
+# print("Number of indexes :",len(cities)-1)
 
-# Third Task
-print("This is Third Task:")
-cities=[]
-cities.extend(["Lahore"])
-cities.append(int(2))
-cities.append(float(2.00))
-print("Used Different Data Types in List:",cities)
+# # Third Task
+# print("This is Third Task:")
+# cities=[]
+# cities.extend(["Lahore"])
+# cities.append(int(2))
+# cities.append(float(2.00))
+# print("Used Different Data Types in List:",cities)
 
-# Fourth Task
-print("This is Forth Task:")
-cities=[-2,-1,0,1,2,3,4,5,6,7]
-print("Numebr of list from -ve range:",cities[-10:])
+# # Fourth Task
+# print("This is Forth Task:")
+# cities=[-2,-1,0,1,2,3,4,5,6,7]
+# print("Numebr of list from -ve range:",cities[-10:])
 
+# tup=("atif", "Amjad","Ali")
+# tup=("Ali",)
+# print(tup,type(tup))
 
+# tup=("Ali", "Ahmad", "Ali","Ajaz")
+# print(len(tup))
+# print(tup[0::2])
+# tup2=("Faraz",)
+# # tup +=tup2 #tuple joining (unfamilia Method)
+# tup= tup + tup2  #(familia Method)
+# print(tup)
+# y =list(tup)
+# y[-1]= "hani"
+# print(y)
+# tup= tuple(y)
+# print("Tuple", tup)
 
+# y.append("Ali")
+# print(y)
+# tup = tuple(y)
+# print(tup)
 
+# tup=(1,2,3,4,"Hello", True)
+# # print(tup)
+# # for i in tup:
+# #     print(i, type(i))
 
+# # for i,j in enumerate(tup,start=10):
+# #     print(i,j)
+# # del tup
+# # print(tup)
+
+# i=0 
+# while i< len(tup):
+#     print(tup[i])
+#     i= i+1
+
+# tup=("Lahore", "Faisalbad","Sialkot"," Islamabad","Hyderbad")
+# user=input("Enter the city to detect :")
+# print( "Yes Found" if[i for i in tup if i==user] else "not Found")
+
+tup=("Lahore", "Faisalbad","Sialkot","Islamabad","Hyderbad")
+
+user=input("Enter the city to detect :")
+
+print("Yes Found" if user in tup else "Not Found")
