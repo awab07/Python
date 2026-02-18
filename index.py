@@ -203,8 +203,36 @@
 # user=input("Enter the city to detect :")
 # print( "Yes Found" if[i for i in tup if i==user] else "not Found")
 
-tup=("Lahore", "Faisalbad","Sialkot","Islamabad","Hyderbad")
+# tup=("Lahore", "Faisalbad","Sialkot","Islamabad","Hyderbad")
+# user=input("Enter the city to detect :")
 
-user=input("Enter the city to detect :")
+# print("Yes Found" if user in tup else "Not Found")
 
-print("Yes Found" if user in tup else "Not Found")
+tup=("A+", "A","B","C")
+english=int(input("Enter the Marks of English :"))
+urdu=int(input("Enter the Marks of Urdu :"))
+math=int(input("Enter the Marks of Math :"))
+isl=int(input("Enter the Marks of Isl :"))
+pak=int(input("Enter the Marks of Pak Studies :"))
+computer=int(input("Enter the Marks of computer :"))
+
+
+Total= float((english+urdu+math+isl+pak+computer)/600*(100))
+print("Total marks % :", Total)
+
+
+if Total >= 80:
+    print("Passed With", tup[0])
+elif Total >= 70:
+    print("Passed With", tup[1])
+elif Total >= 60:
+    print("Passed With", tup[2])
+elif Total >= 50:
+    print("Passed With", tup[3])
+else:
+    print("Fail")
+    
+
+
+
+# print("Yes Found" if user in tup else "Not Found")
