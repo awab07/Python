@@ -1,0 +1,7 @@
+tup = (1, 2, 3, 4)
+print("This is Original",tup)
+temp = list(tup)
+temp.remove(4)
+temp.append(9)
+tup = tuple(temp)
+print("This is changed",tup)
