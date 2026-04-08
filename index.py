@@ -64,7 +64,7 @@
 # else:
 #     print("fail")
 
-# num=10
+# num=1
 # match(num):
 #     case 0:
 #         print("none")
@@ -208,31 +208,33 @@
 
 # print("Yes Found" if user in tup else "Not Found")
 
-tup=("A+", "A","B","C")
-english=int(input("Enter the Marks of English :"))
-urdu=int(input("Enter the Marks of Urdu :"))
-math=int(input("Enter the Marks of Math :"))
-isl=int(input("Enter the Marks of Isl :"))
-pak=int(input("Enter the Marks of Pak Studies :"))
-computer=int(input("Enter the Marks of computer :"))
+# tup=("A+", "A","B","C")
+# english=int(input("Enter the Marks of English :"))
+# urdu=int(input("Enter the Marks of Urdu :"))
+# math=int(input("Enter the Marks of Math :"))
+# isl=int(input("Enter the Marks of Isl :"))
+# pak=int(input("Enter the Marks of Pak Studies :"))
+# computer=int(input("Enter the Marks of computer :"))
 
 
-Total= float((english+urdu+math+isl+pak+computer)/600*(100))
-print("Total marks % :", Total)
+# Total= float((english+urdu+math+isl+pak+computer)/600*(100))
+# print("Total marks % :", Total)
 
 
-if Total >= 80:
-    print("Passed With", tup[0])
-elif Total >= 70:
-    print("Passed With", tup[1])
-elif Total >= 60:
-    print("Passed With", tup[2])
-elif Total >= 50:
-    print("Passed With", tup[3])
-else:
-    print("Fail")
+# if Total >= 80:
+#     print("Passed With", tup[0])
+# elif Total >= 70:
+#     print("Passed With", tup[1])
+# elif Total >= 60:
+#     print("Passed With", tup[2])
+# elif Total >= 50:
+#     print("Passed With", tup[3])
+# else:
+#     print("Fail")
     
 
+# dic={"name":"Ali", "age":12}
+# print(dic)
 
-
-# print("Yes Found" if user in tup else "Not Found")
+stset={"name", "ali","Ahmad"}
+print(stset,type(stset))
